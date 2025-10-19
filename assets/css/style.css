@@ -1,26 +1,5 @@
 @charset "UTF-8";
-/*===================================================================
-[Table Of Content]
 
-    * Imported CSS
-    * Typography CSS
-    * Common CSS
-    * Main Navigation CSS
-    * Header CSS
-    * Home Slider CSS
-    * Team CSS
-    * Brand Logo CSS
-    * Form CSS
-    * Blog CSS
-    * Contact CSS
-    * Footer CSS
-
-=====================================================================*/
-/*
------------------------------------------------------------------------
-  Typography CSS
------------------------------------------------------------------------
-*/
 body {
   color: #656565;
   font-size: 16px;
@@ -830,6 +809,7 @@ table p {
 .header-area.sticky-header.sticky .header-logo-area .logo-light {
   display: none;
 }
+
 .header-area.transparent {
   background-color: transparent;
   position: absolute !important;
@@ -1181,16 +1161,16 @@ table p {
   display: block;
 }
 .header-logo-area img {
-  max-width: 255px;
+  max-width: 80px;
 }
 @media only screen and (max-width: 1399.98px) {
   .header-logo-area img {
-    max-width: 125px;
+    max-width: 80px;
   }
 }
 @media only screen and (max-width: 1199px) {
   .header-logo-area img {
-    max-width: 112px;
+    max-width: 80px;
   }
 }
 .header-logo-area .logo-light {
@@ -6695,8 +6675,11 @@ table p {
   }
 }
 .footer-area .widget-logo-area {
-  margin-bottom: 42px;
-  margin-top: -8px;
+  width: 120px;
+}
+.footer-area .widget-logo-area img {
+  width: 120px;
+  margin-top: -50px;
 }
 @media only screen and (max-width: 1199px) {
   .footer-area .widget-logo-area {
