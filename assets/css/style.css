@@ -3,7 +3,7 @@
 body {
   color: #656565;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif !important;
   font-weight: 400;
   line-height: 1.75;
   margin: 0;
@@ -864,7 +864,7 @@ table p {
 .header-navigation-area .main-menu.nav > li > a {
   color: #fff;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   height: 88px;
   line-height: 90px;
   letter-spacing: 0;
@@ -2424,7 +2424,16 @@ table p {
   z-index: 1;
 }
 .sec-overlay-theme:before {
-  background-color: #03a84e;
+  background: linear-gradient(
+      120deg,
+      rgba(1, 60, 43, 0.693),
+      rgba(2, 48, 40, 0.549)
+    ),
+    url("/assets/img/photos/Sustainable\ Energy\ Landscape.png") center/cover
+      no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   content: "";
   left: 0;
   height: 100%;
@@ -6905,9 +6914,9 @@ table p {
 }
 
 .footer-main {
-  background-color: #272a33;
+  background-color: #00291c;
   position: relative;
-  padding: 126px 0 86px;
+  padding: 80px 0 0px;
 }
 @media only screen and (max-width: 1199px) {
   .footer-main {
@@ -6922,7 +6931,7 @@ table p {
 .footer-main .widget-collapsed-title {
   display: block;
   position: relative;
-  background-color: #333640;
+  background-color: #182243;
   border: 1px solid #3d3f48;
   height: 60px;
   line-height: 60px;
@@ -6990,7 +6999,7 @@ table p {
 }
 
 .footer-bottom {
-  background-color: #272a33;
+  background-color: #00291c;
   text-align: center;
 }
 .footer-bottom .footer-bottom-content {

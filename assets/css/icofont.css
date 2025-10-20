@@ -5,9 +5,9 @@
 */
 
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "IcoFont";
   font-weight: normal;
-  font-style: "Regular";
+  font-style: normal;
   src: url("../fonts/icofont.woff2") format("woff2"),
     url("../fonts/icofont.woff") format("woff");
 }
@@ -28,7 +28,6 @@
   -webkit-font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
 }
-
 .icofont-angry-monster:before {
   content: "\e800";
 }
