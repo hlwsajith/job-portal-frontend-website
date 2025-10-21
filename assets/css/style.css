@@ -6690,12 +6690,34 @@ table p {
   width: 120px;
   margin-top: -50px;
 }
+/* Start mobile footer center  */
+@media only screen and (max-width: 767px) {
+  body .footer-area .widget-logo-area {
+    width: 100%;
+    margin-top: -50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  body .footer-area .widget-logo-area img {
+    width: 110px;
+    margin-top: 10px;
+  }
+}
+/* End mobile footer center  */
 @media only screen and (max-width: 1199px) {
   .footer-area .widget-logo-area {
     margin-bottom: 18px;
     margin-top: -3px;
   }
+  .footer-area .widget-logo-area img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 }
+
 .footer-area .desc {
   color: #d8dadf;
   font-size: 18px;
