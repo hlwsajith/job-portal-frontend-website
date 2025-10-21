@@ -6720,7 +6720,7 @@ table p {
 
 .footer-area .desc {
   color: #d8dadf;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.95;
   margin-bottom: 32px;
 }
@@ -6779,7 +6779,7 @@ table p {
 }
 .footer-area .nav-menu li a {
   color: #d8dadf;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 50px;
   padding: 0 0;
   display: block;
@@ -6948,13 +6948,12 @@ table p {
 @media only screen and (max-width: 767px) {
   .footer-main {
     padding: 75px 0 44px;
+    text-align: center;
   }
 }
 .footer-main .widget-collapsed-title {
   display: block;
   position: relative;
-  background-color: #182243;
-  border: 1px solid #3d3f48;
   height: 60px;
   line-height: 60px;
   padding: 0 20px;
@@ -6981,7 +6980,7 @@ table p {
     display: none;
   }
 }
-.footer-main .widget-collapsed-title:before {
+/* .footer-main .widget-collapsed-title:before {
   font-family: "IcoFont";
   font-size: 14px;
   content: "";
@@ -6990,18 +6989,18 @@ table p {
   height: 100%;
   width: 60px;
   text-align: center;
-}
+} */
 .footer-main .widget-collapsed-title:not(.collapsed):before {
   content: "";
   font-family: "IcoFont";
 }
-.footer-main .widget-collapse-body {
+/* .footer-main .widget-collapse-body {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
-}
+} */
 @media only screen and (min-width: 768px) {
   .footer-main .widget-collapse-body {
     display: block;
@@ -7009,14 +7008,14 @@ table p {
 }
 @media only screen and (max-width: 767px) {
   .footer-main .widget-collapse-body {
-    background-color: #333640;
-    border: 1px solid #3d3f48;
+    /* background-color: #33364000;
+    border: 1px solid #3d3f48; */
     border-top: none;
   }
 }
 @media only screen and (max-width: 767px) {
   .footer-main .widget-collapse-body .collapse-body {
-    padding: 16px 24px 16px;
+    padding: 0;
   }
 }
 
